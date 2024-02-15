@@ -9,7 +9,7 @@ public class BancoDeDados implements OperacoesCRUD<Tarefas> {
     private final String senha;
 
     public BancoDeDados(String url, String usuario, String senha) {
-        this.url = "jdbc:postgresql://qbxnpisz:wy3xBTbG1KVo6o-Yw9yVEllxImAUIa_c@motty.db.elephantsql.com/qbxnpisz";
+        this.url = "jdbc:postgresql://motty.db.elephantsql.com/qbxnpisz";
         this.usuario = "qbxnpisz";
         this.senha = "wy3xBTbG1KVo6o-Yw9yVEllxImAUIa_c";
     }
