@@ -40,7 +40,7 @@ public class GerenciadorTarefas implements OperacoesCRUD<Tarefas> {
         }
     }
 
-    
+ @Override   
  public void removerTarefa(int indice) {
      if (indice >= 0 && indice < listaTarefas.size()) {
          listaTarefas.remove(indice);
