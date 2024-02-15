@@ -7,7 +7,7 @@ import java.util.List;
 
 public class GerenciadorTarefas implements OperacoesCRUD<Tarefas> {
     private List<Tarefas> listaTarefas;
-    BancoDeDados bancodedados = new BancoDeDados("jdbc:postgresql://qbxnpisz:wy3xBTbG1KVo6o-Yw9yVEllxImAUIa_c@motty.db.elephantsql.com/qbxnpisz","qbxnpisz","wy3xBTbG1KVo6o-Yw9yVEllxImAUIa_c");
+    BancoDeDados bancodedados = new BancoDeDados("jdbc:postgresql://motty.db.elephantsql.com/qbxnpisz","qbxnpisz","wy3xBTbG1KVo6o-Yw9yVEllxImAUIa_c");
     public GerenciadorTarefas() {
         this.listaTarefas = new ArrayList<>();
         bancodedados.carregarTarefasDoBanco(listaTarefas);
